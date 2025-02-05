@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
-  const pyton_api_resopnse = await fetch("http://127.0.0.1:8000/api/py/docs");
+  //const pyton_api_resopnse = await fetch("http://127.0.0.1:8000/api/py/docs");
 
-  console.log(pyton_api_resopnse);
+  //console.log(pyton_api_resopnse);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
